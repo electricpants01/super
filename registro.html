@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilos/login.css">
+    <link rel="stylesheet" href="estilos/fontawesome/all.css">
+    <style>
+        p {
+            margin-top: 2em;
+            }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+  <div class="head">
+      <a href="index.php" class="BSlogo"><i class="fas fa-store">Registrate a BienSurtido</i> </a>
+  </div>
+   <h2 >Registrate con tu correo electrónico</h2>
+    <form action="registro.php" method="post">
+        <input type="text" name="nombre" placeholder="Nombre "><br>
+        <input type="text" name="apellido" placeholder="Apellidos"><br>
+        <input type="text" name="correo" placeholder="Correo"><br>
+         <input type="password" name="password" placeholder="Contraseña"><br>
+         <input type="password" name="password2" placeholder="Repetir contraseña"><br>
+        <input type="submit" value="Entrar">
+      <p>Ya tienes una cuenta ? <a href="login.html">Logear</a></p>
+    </form>
+</body>
+</html>
